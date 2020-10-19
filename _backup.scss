@@ -1,0 +1,180 @@
+
+
+// //---------------------------
+
+// // LIGHT TEME SASS
+// $light:#fafafa;
+
+// $theme: #fafafa;
+// $color: #333;
+
+// $primary-color: #1F487E;
+// $second-color:  #FB3640;
+// $third-color:   #247BA0;
+
+// // Color sistem
+// $sucess: green;
+// $range: red;
+// $primary: MediumBlue;
+
+//   // DARK CONTRATSTE
+// $color-contraste-padrao: #063b49;
+// $color-contraste-padrao__dark: #15191a;
+// $color-contraste-second: #555;
+// $color-contraste-third: #8c8c8c;
+
+
+
+//   // CSS
+
+//   :root {
+//   --theme: $theme;
+//   --color: $color;
+//   --primary-color: $primary-color:
+//   --second-color:  $second-color;
+//   --third-color:  $third-color;
+
+// // Color sistem
+//   --sucess: $sucess;
+//   --range: $range;
+//   --primary: $primary;
+//   }
+  
+//   .dark-mode:root {
+//   --theme: $color-contraste-padrao;
+//   --color: $light;
+//   --primary-color: $color-contraste-padrao__dark;
+//   --second-color:  $color-contraste-second;
+//   --third-color:  $color-contraste-third;
+  
+//   }
+
+
+// // _function--color-muda cor do texto de acordo com primary color
+
+// @function set-text-color($color) {
+//   @if lightness($color) > 70 {
+//       @return #333;
+//   }
+//   @else {
+//       @return #f2f2f2;
+//   }
+// }
+
+
+// body {
+//   background: $theme;
+//   color: set-text-color($theme);
+// }
+
+
+
+// // @import "./color";
+
+
+// // // MIXIN 
+
+// // @mixin container-padrao() {
+// //     width: 90vw;
+// //     margin: 0 auto;
+// // }
+// // @mixin container-full() {
+// //     width: 100vw;
+// // }
+
+// // @mixin padding-big() {
+// //     padding: 1rem 2rem;
+// //     box-sizing: border-box;
+// // }
+// // @mixin primary-color_light() {
+// //     background: lighten($primary-color, 20);
+// // }
+
+
+// // //=================
+
+
+
+// // header {
+    
+
+// //     background: $primary-color;
+// // }
+// // nav {
+
+// //     @include container-padrao();
+// //     @include primary-color_light();
+    
+// // }
+// // .item-nav {
+    
+
+// // }
+
+// // .s-header {
+// //     background: $primary-color;
+// // }
+
+// // menu {}
+
+// // section {
+// //     @include container-full()
+
+// // }
+// // s-header-nav {
+
+    
+// //     background-color: red;
+// // }
+
+// // .s-home {}
+
+// // .slide-home {}
+
+// // button {}
+// // a {}
+// // .btn {}
+
+
+
+// // main {}
+
+// // .m-home {}
+
+// // .c-card {}
+
+
+
+
+
+// // /*
+// // Estilizar
+
+// // section :: com  largura small (100vw)
+// // main :: com  largura wide (90vw)
+
+
+// // // Para 90vw 1ou envolver com a section 
+
+// // Pesquisar se tem tag group , se tiver colocar 90vw
+
+
+// // ////////////////////////////////////////////////////
+// // header
+// //   nav
+// //   section .s-header
+// //   menu ou .navMenu
+  
+// //   .menu.mobile
+// //   ===================================
+  
+// //   section  .s-home (pra dar cor fundo)
+// //      Bloquet
+// //         .slideHome         button .btn login
+  
+// // ===================================
+
+// // main .home (colocar td q precisa de container 90)
+// //   .cards
+
+// // */

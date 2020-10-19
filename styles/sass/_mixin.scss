@@ -1,0 +1,22 @@
+
+
+
+@mixin google-font($family) {
+    @import url("http://fonts.googleapis.com/css?family=#{$family}");
+  }
+  
+  @include google-font("Nunito");
+
+  body {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    background-color: yellow;
+    font-size: 1rem;
+}
+

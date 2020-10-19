@@ -1,0 +1,24 @@
+
+//=============== PLACEHOLDERS =====================
+%test {width: 100px; height: 100px; background-color: aqua; margin: 2%;}
+
+%container90 {
+    width: 90%;
+    margin: 0 auto;
+}
+/* PADDING :: superior | horizontal | inferior */
+%padding {
+    padding: 1em 1em 1.0em; 
+}
+%boxEffect {
+    box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
+    /* 
+    SHADOW :: 
+        1º valor : Desloca HORIZONTAL |   Positivo-a-direita | Negativo-a-esquerda |
+        2º valor : Desloca VERTICAL |   Positivo-pra Baixo | Negativo-pra Cima
+        3º valor : filtro Blur | |
+        4º valor : expansao do Blur | |
+        5º valor : Cor | |
+
+    */
+}

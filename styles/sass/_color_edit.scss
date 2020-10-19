@@ -1,0 +1,93 @@
+@import "../sass/funcoes/global";
+@import "../sass/components/global";
+
+// MESMAS VARIAVEIS E CLASSES SASS FAZER EM CSS
+
+
+//== CSS ========================================
+
+// TEMA DEFAULT CSS
+:root {
+  --theme: #fff;
+  --color: #333;
+  --primary-color:#1F487E;
+  --second-color:#FB3640;
+  --third-color:#247BA0;
+
+// Color sistem
+  --sucess: green;
+  --range: red;
+  --primary: blue;
+
+  // DARK CONTRASTE--CSS
+  --color-contraste-padrao: #333;
+  --color-contraste-text: #fafafa;
+  --color-contraste-padrao__dark: #15191a;
+  --color-contraste-second: #555;
+  --color-contraste-third: #8c8c8c;
+  }
+
+.dark-mode:root {
+    --theme: var(--color-contraste-padrao);
+    --color: var(--color-contraste-text);
+    --primary-color: var(--color-contraste-padrao);
+    --second-color: var(--color-contraste-second);
+    --third-color: var(--color-contraste-third);
+
+// Color sistem
+  --sucess: var(--color-contraste-padrao);
+  --range: var(--color-contraste-second);
+  --primary: var(--color-contraste-third);
+  }
+// == FINAL CSS /////////////////////////////////////
+
+
+
+//== SASS ========================================
+
+// TEMA DEFAULT SASS
+$light:#fafafa;
+
+$theme: #fafafa;
+$color: #333;
+
+$primary-color:#1F487E;
+$second-color:#FB3640;
+$third-color:#247BA0;
+
+// Color sistem
+$sucess: green;
+$range: red;
+$primary: MediumBlue;
+
+  // DARK CONTRASTE--SASS
+$color-contraste-padrao: #063b49;
+$color-contraste-padrao__dark: #15191a;
+$color-contraste-second: #555;
+$color-contraste-third: #8c8c8c;
+
+// == FINAL SASS /////////////////////////////////////
+
+
+  
+
+
+
+
+body {
+  background: $theme;
+  color: set-text-color($theme);
+}
+.teste {
+  background-color: $second-color;
+  color: set-text-color($second-color);
+  // com a funcao set color - Sempre ao colocar um background colocar a mesma variavel do background como parametro da fonte color 
+}
+.teste2 {
+  background-color: $third-color;
+  color: set-text-color($third-color);
+}
+.teste3 {
+  background-color: $range;
+  color: set-text-color($range);
+}

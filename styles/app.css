@@ -1,0 +1,54 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+body {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0; }
+
+/* PADDING :: superior | horizontal | inferior */
+body {
+  font-family: 'Nunito', sans-serif; }
+
+:root {
+  --theme: #fff;
+  --color: #333;
+  --primary-color:#1F487E;
+  --second-color:#FB3640;
+  --third-color:#247BA0;
+  --sucess: green;
+  --range: red;
+  --primary: blue;
+  --color-contraste-padrao: #333;
+  --color-contraste-text: #fafafa;
+  --color-contraste-padrao__dark: #15191a;
+  --color-contraste-second: #555;
+  --color-contraste-third: #8c8c8c; }
+
+.dark-mode:root {
+  --theme: var(--color-contraste-padrao);
+  --color: var(--color-contraste-text);
+  --primary-color: var(--color-contraste-padrao);
+  --second-color: var(--color-contraste-second);
+  --third-color: var(--color-contraste-third);
+  --sucess: var(--color-contraste-padrao);
+  --range: var(--color-contraste-second);
+  --primary: var(--color-contraste-third); }
+
+body {
+  background: #fafafa;
+  color: #333; }
+
+.teste {
+  background-color: #FB3640;
+  color: #f2f2f2; }
+
+.teste2 {
+  background-color: #247BA0;
+  color: #f2f2f2; }
+
+.teste3 {
+  background-color: red;
+  color: #f2f2f2; }
+
+/*# sourceMappingURL=app.css.map */
