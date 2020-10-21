@@ -8,15 +8,21 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles/app.css">
 </head>
-<body>
+<body class="">
+    <!-- Body com classe vazia -- linkada com javascript switch para dark mode -->
+
+
     <div class="">
         <h1>teste TITULO 1 </h1>
+
+        <label class="switch">
+            <input id="switch" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
         
-        <div class="toggle">
-            <label for="switch">
-                <input type="checkbox" id="switch">
-            </label>
-        </div>
+        <!--   -->
+
 
         <div class="teste">
             <h2>TESTANDO 1</h2>
@@ -42,7 +48,6 @@
 
 
 
-    <script src="./javascript/color.js"></script>
     <script src="./javascript/switch.js"></script>
     
 </body>
