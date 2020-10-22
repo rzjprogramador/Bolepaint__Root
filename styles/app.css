@@ -11,22 +11,22 @@ body {
   font-family: 'Nunito', sans-serif; }
 
 :root {
-  --light: #fff;
+  --light_color: #f2f2f2;
   --primary-color:#1F487E;
   --second-color:#FB3640;
   --third-color:#247BA0;
-  --dark: #333;
-  --light_aux: #ccc;
-  --sucess: green;
-  --range: red;
-  --primary: blue; }
+  --dark_color: #333;
+  --light_color_aux: #ccc;
+  --sucess_color: green;
+  --range_color: red;
+  --primary_color: blue; }
 
 body {
-  background-color: var(--light);
-  color: #555; }
+  background-color: var(--light_color);
+  color: var(--dark_color); }
   body.dark {
-    background-color: var(--dark);
-    color: #fafafa; }
+    background-color: var(--dark_color);
+    color: var(--light_color_aux); }
 
 .switch {
   position: relative;
@@ -46,7 +46,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--light_aux);
+  background-color: var(--light_color_aux);
   -webkit-transition: .4s;
   transition: .4s; }
 
@@ -78,5 +78,17 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%; }
+
+.div-teste-1 {
+  background-color: blue;
+  color: #fafafa; }
+
+.div-teste-2 {
+  background-color: #eef092;
+  color: #333; }
+
+.div-teste-3 {
+  background-color: #247BA0;
+  color: #fafafa; }
 
 /*# sourceMappingURL=app.css.map */

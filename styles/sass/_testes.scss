@@ -1,0 +1,16 @@
+
+.div-teste-1 {
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+    //   // com a funcao set color - Sempre ao colocar um background colocar a mesma variavel do background como parametro da fonte color 
+}
+.div-teste-2 {
+    background-color: $second-color;
+    color: set-text-color($second-color);
+    //   // com a funcao set color - Sempre ao colocar um background colocar a mesma variavel do background como parametro da fonte color 
+}
+.div-teste-3 {
+    background-color: $third-color;
+    color: set-text-color($third-color);
+    //   // com a funcao set color - Sempre ao colocar um background colocar a mesma variavel do background como parametro da fonte color 
+}
